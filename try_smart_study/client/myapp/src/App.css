@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.logo-image {
+  width: 10%;
+}
+.second-container {
+  margin-top: 69px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 450px;
+}
+@media screen and (min-width: 600px) {
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 175px;
+    margin-top: 30px;
+  }
+
+  .profile-card-container {
+    height: 490px;
+    width: 22%;
+    text-align: center;
+    background: blue;
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image-container {
+    height: 120px;
+    width: 45%;
+    border: 1px white solid;
+    border-radius: 35%;
+    text-align: top;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 65px;
+  }
+  .avatar {
+    height: 130px;
+    width: 20%;
+  }
+
+  .navItem {
+    font-size: 20px;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-body {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    flex-direction: row;
+
+    margin-left: 20px;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button {
+  height: 40px;
+  width: 75px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 5px;
+}
+.body {
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff35;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  margin-top: 64px;
+  margin-bottom: 32px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    width: 20%;
+    min-width: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-self: stretch;
+  }
+}
+
+.profile-image {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-image {
+    width: 120px;
+    height: 80px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+    border-radius: 35%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 4px;
+  cursor: pointer;
+  list-style-type: none;
+  width: 45%;
+}
+.headingFor {
+  color: white;
+  background-color: blue;
+  font-size: 30px;
+  text-align: center;
+}

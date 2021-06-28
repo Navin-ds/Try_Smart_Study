@@ -1,0 +1,13 @@
+.box {
+  margin-right: 24px;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-right: 24px;
+  border: solid black;
+  flex-wrap: wrap;
+}

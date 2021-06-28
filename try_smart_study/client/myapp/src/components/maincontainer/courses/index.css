@@ -1,0 +1,12 @@
+.skill {
+  margin: 0px;
+  height: 30px;
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 24px;
+  border: 2px solid black;
+  margin-bottom: 24px;
+  background-color: white;
+}
